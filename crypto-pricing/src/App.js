@@ -41,7 +41,7 @@ function App() {
           <tbody>
             <tr>
               <th>#</th>
-              <th>Name</th>
+              <th>Ticker Symbol</th>
               <th>Price</th>
               <th>24hr %</th>
             </tr>
