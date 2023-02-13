@@ -19,7 +19,7 @@ function App() {
       return
     }
 
-    fetch('https://api.binance.us/api/v3/ticker/24hr?symbol=' + search.toUpperCase())
+    fetch('https://api.binance.us/api/v3/ticker/24hr?symbol=' + search.toUpperCase() + 'USD')
       .then(res => res.json())
       .then(data => setPriceData(data))
       .catch(err => error = true)
