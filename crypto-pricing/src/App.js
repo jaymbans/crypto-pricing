@@ -51,8 +51,7 @@ function App() {
               <td>{
                 priceData &&
                 '$' + Number(priceData.openPrice)
-                  .toFixed(2).toString()
-                  .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                  .toLocaleString()}
               </td>
               <td style={priceData.priceChangePercent > 0 ?
                 { color: 'green' } :
