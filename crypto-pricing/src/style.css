@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background: #f1f1f1;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  background: rgb(78, 78, 230);
+  padding: 30px 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+nav input {
+  height: 30px;
+  width: 300px;
+  padding: 5px;
+  margin-left: 25px;
+}
+
+nav input::placeholder {
+  color: rgb(78, 78, 230);
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+td,
+th {
+  padding: 10px 20px;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid #f1f1f1;
+}
