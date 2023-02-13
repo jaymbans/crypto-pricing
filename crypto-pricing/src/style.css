@@ -58,3 +58,19 @@ th {
 tr:not(:last-child) {
   border-bottom: 1px solid #f1f1f1;
 }
+
+@media only screen and (max-width: 600px) {
+  nav {
+    padding: 10px 0;
+    flex-direction: column;
+    height: auto;
+  }
+
+  #search {
+    margin: 10px auto;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
