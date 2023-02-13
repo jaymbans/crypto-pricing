@@ -80,7 +80,7 @@ function App() {
             <input id='search' type="search" placeholder="Search a symbol" />
           </form>
         </nav>
-        <h1>Search a valid Crypto Symbol</h1>
+        <h2>Search a valid Crypto Symbol</h2>
       </div>
     )
   }

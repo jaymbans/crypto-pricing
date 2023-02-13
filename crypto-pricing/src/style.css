@@ -36,7 +36,8 @@ nav input::placeholder {
   color: rgb(78, 78, 230);
 }
 
-h1 {
+h1,
+h2 {
   text-align: center;
   margin: 20px 0;
 }
@@ -70,7 +71,8 @@ tr:not(:last-child) {
     margin: 10px auto;
   }
 
-  h1 {
+  h1,
+  h2 {
     font-size: 20px;
   }
 }
