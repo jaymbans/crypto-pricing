@@ -22,12 +22,16 @@ function App() {
     fetch('https://api.binance.us/api/v3/ticker/24hr?symbol=' + search.toUpperCase() + 'USD')
       .then(res => res.json())
       .then(data => setPriceData(data))
-      .catch(err => error = true)
+      .catch((err) => {
+        console.log('ticker invalid')
+        return alert('please search a valid ticker')
+      })
 
     error = false;
+
   }, [search])
 
-  if (priceData.openPrice) {
+  if (priceData.openPrice && !error) {
     return (
       <div className="App">
         <nav>
